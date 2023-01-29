@@ -1,0 +1,72 @@
+Dla jednych szachy to świetny sport i trening szarych komórek. Dla innych szachy to trudna gra dla wtajemniczonych. Gdy jednak pozna się zasady szachów, to okaże się, że nie taki diabeł straszny, jak go malują. W szachach najważniejsze jest myślenie i doświadczenie.
+
+
+Szachy – niemal każdy zetknął się z tą grą w mniejszym lub większym stopniu. O turniejach szachowych i arcymistrzach niewiele mówi się i pisze w najpopularniejszych serwisach sportowych. A jednak gra ta ma się bardzo dobrze. Zasady gry w szachy tak naprawdę zaczęto tworzyć już setki lat temu.
+
+Zasady gry w szachy niewiele się zmieniły
+Pierwsze zasady szachowej gry powstawały już w średniowieczu i stopniowo ewoluowały. Od kiedy możemy mówić o współczesnych szachowych zasadach? Mniej-więcej od XIX wieku, gdy ustalono reguły, które obowiązują obecnie. Nad zasadami gry w szachy czuwa FIDE, czyli Międzynarodowa Federacja Szachowa. Przepisy różnią się jedynie, gdy gramy w różne odmiany szachów. Zależą one od tempa gry i możemy mówić o szachach błyskawicznych, szybkich, klasycznych (turniejowych) oraz korespondencyjnych.   
+
+Podstawowe zasady szachów. Figury szachowe
+Omawiając grę w szachy, trzeba zacząć od podstawowych informacji. Jest to gra dla tylko dwóch osób. Rozgrywka ma miejsce na szachownicy składającej się z białych (jasnych) i czarnych (ciemnych) pół. W sumie na szachownicy są 64 pola. Obaj zawodnicy rozkładają na szachownicy 32 bierki. Na zestaw składa się sześć rodzajów figur: 1 Król, 1 Hetman, 2 Wieże, 2 Gońce, 2 Skoczków i 8 Pionów. Celem każdej gry w szachy jest danie mata, czyli zagrożenie figurze króla zbiciem, którego nie da się uniknąć. Częściej gra kończy się poddaniem niż matem, bo zawodnicy wiedzą, kiedy nie mają już szans na wybrnięcie z sytuacji. 
+
+Rozstawienie figur w szachach. Zasady
+Szachownica jest podobna do planszy wykorzystywanej w warcabach. O jasnych i ciemnych polach już mówiliśmy. Szachownica zawsze musi być ułożona w taki sposób, by w prawym dolnym rogu znajdowało się jasne (białe pole). Są jasne reguły rozstawiania figur.
+
+Wieże zajmują pozycję w narożnikach planszy
+Skoczki są obok wież od strony wewnętrznej
+Gońce z kolei sąsiadują ze skoczkami od wewnątrz
+Hetmana daje się na jedno ze środkowych pól – na to, które jest zgodne z kolorem figur danego gracza (białe lub czarne)
+Król zajmuje ostatnie miejsce w dolnym rzędzie, obok hetmana. Osiem pionów zajmuje cały rząd w drugiej linii.
+Ustawienie figur na szachownicy
+Ruchy figurami, czyli jak grać w szachy
+Szachownicę mamy przygotowaną, a figury rozłożone. Zanim przejdziemy do konkretnych możliwości danych figur, kilka słów o ich przemieszczaniu się na szachownicy. Każde pole na planszy ma swoje oznaczenie. Linie pionowe, od lewej do prawej nazywane są kolumnami i oznacza się je literami od a do h. Z kolei linie poziome nazywa się rzędami i przypisuje im się cyfry od 1 do 8. Z tego powodu np. biały król rozpoczyna rozgrywkę z pola e1. Linie ukośne nazywa się przekątnymi lub diagonalnymi.
+
+No dobrze, a teraz pora na konkretne ruchy, konkretnych figur, czyli co mogą dane bierki, a czego nie:
+
+Król – porusza się o jedno pole w poziome, pionie i na ukos. Raz w grze może wykonać specjalny ruch, tzw. roszadę.
+Hetman – on może zmieniać swoją pozycję o dowolną liczbę wolnych pół w poziomie, pionie i na ukos. Stanowi połączenie ruchów wieży i gońca.
+Wieża – zmienia pozycję o dowolną liczbę wolnych pól w poziomie, pionie, a także w trakcie roszady.
+Goniec (laufer)– porusza się o dowolną liczbę wolnych pól tylko po przekątnych.
+Skoczek (koń lub konik) – zmienia pozycją na najbliższe pole nie znajdujące się w tej samej kolumnie, rzędzie lub przekątnej, czyli porusza się od dwa pola jak wieża, a następnie o jedno pole prostopadłe do tego kierunku (podobieństwo do litery L lub cyfry 7). Figura ta przesuwa się na nowe pole nie blokowane przez inne bierki.
+Pion (pionek) – zmienia pozycję o jedną do przodu, o ile dane pole nie jest zajęte. Jeżeli nie wykonano jeszcze ruchu, to w pierwszym posunięciu można przesunąć pionek o dwa pola naprzód. Nie można nim poruszać do tyłu. Warto pamiętać, że piony są jedynymi figurami, które inaczej zbijają niż się poruszają. Mogą zbić inną figurę, jeśli znajduje się ona na jednym z dwóch pól na ukos. Nie mogą tam się przemieścić, jeśli nie zbijają figury. Piony mają także szczególne posunięcie tzw. bicie w przelocie (z franc. en passant) oraz tzw. promocję.
+Szachy - figury
+Specjalne ruchy figur. Roszada i bicie w przelocie
+Wyjaśnijmy trzy wyjątkowe posunięcia w szachach. Zasady ich nie są skomplikowane.
+
+Roszada jest przesunięciem króla i wieży. Król przemieszcza się o dwa pola w kierunku wieży, a następnie wieża umieszona jest po drugiej stronie króla. Kiedy możliwa jest roszada? Gdy król i wieża nie wykonały jeszcze posunięcia, gdy nie ma pomiędzy nimi żadnych innych figur. Król i wieża muszą znajdować się w tym samym rzędzie, a król nie może być szachowany.
+Bicie w przelocie, czyli en passant. Bicie to wykonuje się tylko w sytuacji ruchu bezpośrednio po ruchu pionem o dwa pola, jeżeli jeden gracz przemieścił się pionem o dwa pola, a drugi gracz ma piona obok w sąsiadującej kolumnie. To ten gracz może zbić piona przeciwnika, przesuwając się o jedno pole.
+Promocja pionka – jeśli pion osiągnie ósmy rząd, czyli ostatni i najdalej wysunięty (z naszej perspektywy), to jest on wówczas zamieniany, czyli promowany na hetmana, gońca lub skoczka. Wybór należy do gracza, ale przyjęło się, że najczęściej jest to hetman. Teoretycznie możliwe jest posiadanie przez szachistę aż dziewięciu hetmanów, wież, gońców, czy skoczków. W przypadku braku potrzebnej figury, takową powinien dostarczyć sędzia.
+Jak grać w szachy? Rozgrywka i zakończenie partii
+Wspomnieliśmy, że zasady szachów są takie, iż zawsze zaczyna posiadacz białych figur. Ale jak to się dzieje, że jeden gracz gra białymi, a drugi czarnymi? Nie ma żadnej zapisanej i żelaznej zasady. Często odbywa się to poprzez dogadanie lub losowanie. Jeden z graczy chowa w dłoniach czarnego i białego pionka, a przeciwnik wybiera jedną z dłoń.
+
+Szach-mat – to hasło nawet laikom kojarzy się z zakończeniem rywalizacji na szachownicy. Ale co to takiego szach i mat? Szach, czyli zaszachowanie króla ma miejsce wtedy, gdy królowi przeciwnika grozi zbicie, czyli jest to możliwe w kolejnym ruchu. Gracz nie może wykonać ruchu królem, gdy umożliwi to przeciwnikowi jego zbicie i wystawienie na szach. Co ciekawe król nigdy nie jest zbijany. Gracz, którego królowi grozi szach musi wyeliminować zagrożenie, nie można pozostawić króla, aby został zaszachowany.
+
+Istnieje kilka możliwości uniknięcia zagrożenia szachowania króla:
+
+Można zbić grożącą figurę. Może to zrobić również król, jeśli nie sprawi to, iż dalej będzie on szachowany
+Można przesunąć króla na bezpieczne pole, jeśli takowe istnieje na szachownicy.
+Można umieścić figurę pomiędzy królem a zagrażającą mu figurą. Należy jednak pamiętać, że nie jest to możliwe w przypadku skoczka i pionka lub gdy szachujący hetman, wieża i goniec sąsiadują z królem.
+W szachach zasady zakończenia partii są jasne i obejmują trzy przypadki. Po pierwsze, partia kończy się, gdy król został zamatowany, czyli król jest szachowany i nie ma możliwości wykonania żadnego dozwolonego ruchu obronnego. Po drugie, koniec następuje, gdy przeciwnik poddaje partię i musi o tym jasno i przejrzyście zakomunikować. Po trzecie, gdy rywalowi skończył się czas na wykonanie określonej liczby ruchów figurami.
+
+Szach mat
+Zasady uzyskania wyniku remisowego w szachach
+Na najwyższym poziomie często pada jeden wynik szachów – remis. W jakich okolicznościach tak się dzieje?
+
+Gdy na szachownicy mamy do czynienia z pozycją patową i gdy żadna ze stron nie może dać mata (tzw. martwa pozycja)
+Gdy żaden z graczy nie ma możliwości i figur do zamatowania króla przeciwnika
+Gdy obaj rywale uzgodnili remis
+Jeden z zawodników sam może starać się o szachowy wynik remisowy, gdy wykonano pięćdziesiąt kolejnych ruchów figur przez obu zawodników i w tym czasie nie zbito ani jednej z figur i nie wykonano żadnego ruchu pionem. Inny przypadek reklamowania wyniku remisowego w szachach dotyczy sytuacji, gdy na planszy po raz trzeci powstała ta sama pozycja i gdy wszystkie figury mogą wykonać takie same posunięcia. W takich przypadkach prośba o remis jest przyjmowana. Istniej też takie pojęcie, jak „wieczny szach” i jest to wyjątkowy przypadek wyniku remisowego w szachach. Dotyczy on powtarzania ruchów, które jeden z graczy wymusza na drugim szachiście, szachując jego króla.
+
+Czas a wynik szachów
+W turniejach gra się biorąc pod uwagę czas na wykonanie określonej liczby ruchów. Stąd właśnie różne odmiany szachów i zasad z nimi związanych. Gdy jednemu z graczy kończy się czas, oznacza to jego porażkę. Jeśli jednak szachista reklamuje przekroczenie czasu przeciwnika, lecz sam nie ma możliwości do dania mata, partia kończy się remisem. Jeśli sam nie przekroczył czasu i ma możliwość dania mata – wtedy to reklamujący wygrywa. 
+
+Szachy na czas
+Podstawowe strategie i zasady szachów
+Szachy, jak każda gra ma swoje niepisane reguły, strategie i taktyki prowadzące do zwycięstwa, albo przynajmniej zwiększające szanse na udaną partię. W szachach wyróżniamy cztery podstawowe strategie, które każdy szanujący się szachista powinien znać i stosować.
+
+Broń i chroń króla – Twój król to twoja świętość, dlatego warto przesunąć go do rogu szachownicy, gdzie zazwyczaj jest bezpieczniejszy. Poza tym lepiej dokonać roszady szachowej najwcześniej, jak to możliwe.
+Nie pozbywaj się figur – Nie warto bez walki i lekkomyślnie oddawać swoich figur. Każda z nich ma swoją wartość i może się przydać. Nie ma mata bez figur. Szachiści znają prosty sposób na określanie wartości swoich figur. Każdej przyporządkowana jest jakaś liczba. Pionek to 1, Skoczek i Goniec 3, Wieża 5, Hetman 9, a Król jest bezcenny. Zliczanie wartości posiadanych figur pomaga w podejmowaniu decyzji i wykonywaniu strategicznych ruchów.
+Środek szachownicy pod kontrolą. Gracz powinien przestrzegać tej zasady i kontrolować centrum planszy swoimi figurami. To właśnie środek szachownicy daje przestrzeń do poruszania się i wykonywania ruchów.
+Korzystaj ze wszystkich figur – Figury nie przynoszą pożytku, jeśli stoją z tyłu na pierwszej linii. Wyprowadzenie wszystkich figur i posiadanie ich pod ręką, daje większe możliwości „dobrania się” do króla przeciwnika. Korzystanie tylko z jednej lub dwóch figur w ataku nie okaże się skuteczne przeciwko lepszym graczom.
+Porady szachowe dla graczy
+Każdy początkujący szachista pyta, „jak grać, żeby wygrywać?”, „jak być lepszym szachistą?”. Jednej odpowiedzi na te pytania nie ma, ale istnieją ogólne porady szachowe, które są pewnymi drogowskazami do zwiększania swoich umiejętności. Oczywistą oczywistością jest trening i sama gra. Im więcej gra się w szachy, tym lepsze osiąga się wyniki. Nie ważne z kim się gra, szachy na żywo, czy szachy online. Każda partia jest cenna. Niezalenie czy się wygrywa, czy nie. Z każdego wyniku szachów można wyciągnąć odpowiednie wnioski. Warto także korzystać z szachowych lekcji i poradników. Obecnie w Internecie jest ich całe mnóstwo. To teksty na stronach, blogach lub filmy video. No i ważne jest nastawienie. Nie ma sensu na początku mocno się „spinać”. To ma być przede wszystkim dobra rozrywka. Porażki nie dołują, lecz uczą.

@@ -1,0 +1,291 @@
+Gra w szachy to zabawa sama w sobie – można przestawiać figurki, obmyślać plany gry i finalnie ograć przeciwnika. I z tym ostatnim związane jest najwięcej pytań!
+
+Co decyduje o tym, że jeden szachista wygrywa raz za razem, a drugi odwrotnie?
+Czynników pewnie jest cała masa, ale główny to trening. Tutaj nie ma żadnej niespodzianki – im więcej wiesz i umiesz, tym lepiej grasz. A w tym artykule przedstawię Ci metody trenowania każdego aspektu szachowego rzemiosła.
+
+Ten artykuł (w pierwotnej wersji) napisałem aż cztery lata temu i był to wyraz pewnej frustracji. Grałem na turnieju, na którym zebrałem srogie lanie, po czym szukałem w internecie odpowiedzi.
+
+Niestety żadnej (klarownej) nie znalazłem…
+Ze względu na ten zawód zdecydowałem się testować na sobie różne techniki i podzielić się nimi z moimi czytelnikami (których w sumie wtedy jeszcze nie miałem, bo był to mój pierwszy wpis na blogu!).
+
+Teraz moja wiedza jest znacznie większa, dlatego postanowiłem wrócić do mojego pierwszego wpisu i go zaktualizować.
+
+Od 2016-tego roku zdobyłem ponad 200 oczek w rankingu szachowym, spełniłem wymogi na tytuł mistrza FIDE (FM) i nawet zdobyłem pierwszą normę na tytuł Mistrza Międzynarodowego. Z pewnością to dowodzi, że moja gra w szachy uległa znaczącej poprawie.
+
+Artykuł będzie podzielony na kilka sekcji:
+Co trenować? – tutaj opowiem o tym jak ustalić z czym mam problem, aby później podszkolić odpowiedni aspekt gry.
+Jak trenować? – tutaj omówię trenowanie takich aspektów gry jak: taktyka, strategia, liczenie wariantów, końcówki i debiuty.
+Plan treningu do poziomu 1800 – w ostatniej części zaproponuję przykładowy plan treningowy dla zawodnika, który zaczyna swoją przygodę z szachami.
+Co trenować?
+Gra w szachy to wypadkowa wielu, różnych aspektów. Ktoś może być świetny w kombinacyjnej grze, ale za to kiepski w strategii, może świetnie sobie radzić w końcówkach, ale marnie w debiutach. Ktoś inny może być „bogiem” debiutów, ale za to tragicznym „obliczeniowcem”.
+
+Co zabawne może się okazać, że wszyscy ci zawodnicy są na tym samym poziomie gry! Ale zdecydowanie każdy z nich powinien trenować w odmienny sposób.
+
+Początkujący
+Zacznijmy od początku. Jeżeli jesteś szachistą, który dopiero rozpoczął przygodę z szachami, czyli znasz zaledwie podstawowe zasady (ruchy figur). To powinieneś zacząć od:
+
+Przerobienia lekcji.
+Grania jak najwięcej partii na 15’+10”.
+Rozwiązywania zadań taktycznych.
+Tylko tyle! Idąc tym sposobem ogarniesz najważniejsze podstawy i będziesz w stanie podjąć dyskusję na wyższym poziomie.
+
+(Szczegóły techniczne wyjaśniam na nagraniu dla początkujących.)
+
+Średnio-zaawansowani
+Jeżeli natomiast jesteś szachistą, który ma już pewne doświadczenie, gra w szachy kilka miesięcy, albo lat, to powinieneś się skupić na analizie własnych partii.
+
+Żeby wiedzieć, który aspekt gry w szachy musisz trenować, należy prześledzić swoje pojedynki i wypisać najczęściej pojawiające się błędy.
+
+Analiza własnych partii
+Można się do tego zabrać na kilka sposobów. Zależnie od Twojego budżetu oraz ilości dostępnego czasu. Najprostsze byłoby wynajęcie trenera, który jest bardziej doświadczonym zawodnikiem i łatwo wskaże mankamenty naszej gry.
+
+Jednak znalezienie odpowiedniego szkoleniowca i jego opłacenie to dosyć spory wydatek czasu i pieniędzy. Chociaż jest to fajna droga na skróty.
+
+Program do analizy partii
+Innym pomysłem jest skorzystanie z automatu, czyli programu szachowego, który ocenia jakość danego posunięcia. Jest to świetne rozwiązanie dla leniwych. Niewątpliwie jest to narzędzie godne uwagi, ale ma pewne ograniczenia. Przyjrzyjmy się analizie przeprowadzonej przez chess.com.
+
+Gra w szachy - analiza własnych partii chess.com
+Technicznie sprawa jest banalnie prosta – wchodzę w archiwum moich partii na chess.com. I klikam te cyferki (one określają dokładność gry w danej partii), lub napis „Analizuj”.
+
+Program „wypluwa” analizę:
+
+Gra w szachy - analiza własnych partii chess.com
+Panel zaznaczony na czerwono pokazuje ocenę pozycji (im więcej białego, tym większa przewaga białego i analogicznie z czarnym paskiem). Łatwo zauważyć, że partia miała kilka zwrotów akcji (błędów) z obu stron, kiedy ocena pozycji mocno się zmieniała.
+
+Przechodząc przez całą partię jesteśmy w stanie prześledzić, w którym momencie nastąpił błąd. To jest oczywiście super sprawa. Ale…
+
+Samodzielnie ciężko jest przyporządkować błąd do odpowiedniej kategorii.
+Program powie nam gdzie były błędy, ale nie powie nam skąd się tam wzięły. A z treningowej perspektywy to jest najważniejsze. W końcu chcemy wiedzieć, czy to był błąd liczenia wariantów, a może zły plan, czy też przeoczenie planu przeciwnika.
+
+Generalnie, żeby to miało jakikolwiek sens, powinieneś postarać się pogrupować błędy w kategorie. I ta, która pojawia się najczęściej będzie Twoim priorytetem w treningu.
+
+Samodzielna analiza partii
+Jest to kategoria, którą najbardziej polecam – praca swoim umysłem przynosi zawsze najlepsze efekty. Jest to oczywiście obarczone ryzykiem, że nie zawsze będziesz w stanie wyłapać własne błędy, ale według mnie warto „zaryzykować”, chyba że masz dostęp do trenera!
+
+Analiza własnych partii powinna przebiegać według tych punktów:
+Przygotowanie do analizy.
+Sprawdzenie teorii debiutu w opracowaniu.
+Samodzielna analiza partii (próba wyłapania błędów).
+Sprawdzenie własnych rozważań z silnikiem (czy były jakieś błędy, których nie widziałeś?).
+Wpisanie analizy do komputera.
+Więcej na temat analizowania własnych partii napisałem w artykule, więc nie będę tego tutaj powielał.
+
+Kiedy już wiesz jakie błędy najczęściej pojawiają się w Twoich partiach, to czas przejść do treningu.
+
+Gra w szachy – jak trenować?
+Taktyka szachowa
+Taktyka jest pewnego rodzaju spoiwem gry w szachy. Określa podstawowe zależności pomiędzy figurami bez których nie da się rozgrywać partii na poważnym poziomie.
+
+Trening taktyczny powinien być podzielony na dwie fazy;
+
+poznanie motywów taktycznych
+ćwiczenie zmysłu kombinacyjnego
+Motywy taktyczne
+Gra w szachy – to wypatrywanie powiązań – musisz być niczym agent, który dostrzega siatkę wywiadowczą innego kraju. Taką pracę ułatwi Ci poznanie typowych tricków stosowanych przez obcy wywiad.
+
+Widełki, młynek, rentgen to motywy, które z pewnością kojarzysz, ale czy znasz je wszystkie?
+
+Gra w szachy - motywy taktyczne
+To jeszcze nie wszystkie! Pełną listę znajdziesz pod linkiem.
+
+W jaki sposób poznawać motywy taktyczne?
+Najprościej jest sięgnąć po odpowiednią książkę, która ma zadania posegregowane motywami. Kiedy rozwiążesz kilkadziesiąt podobnych zadań, to dane połączenie między figurami mocno Ci się utrwali.
+
+Książką z której ja korzystałem była ta pozycja:
+
+Gra w szachy - motywy taktyczne książka
+Chociaż obecnie łatwiej jest poznać motywy korzystając z Internetu. Kiedy widzę, że jakiś motyw wychodzi mi wyjątkowo kiepsko, to zaznaczam go w opcji nauki na chess.comie i dostaję zadania jedynie z tym motywem.
+
+Taktyczna gra w szachy to zbiór kilkudziesięciu motywów i na początek polecam przerobić każdy z nich oddzielnie!
+
+Gra w szachy - trening motywów taktycznych
+Wystarczy zaznaczyć, który motyw chcemy ćwiczyć oraz trudność zadań i możemy lecieć z treningiem.
+
+(Chociaż osobiście i tak jestem fanem książek – skoro tak dużo czasu spędzamy przed komputerem, to warto korzystać z okazji, aby oszczędzać oczy 😉 )
+
+Jeżeli już zaznajomiłeś się z wszystkimi motywami to czas przejść do…
+
+Trening zmysłu taktycznego
+Kiedy rozwiązujesz zadania z działu „widełki”, to łatwo jest wpaść w rutynę – patrzysz na kolejną pozycję i bezmyślnie szukasz kolejnych widełek. To jest dobre na początek, ale przecież w partii nie wiemy czego się spodziewać.
+
+To nas prowadzi do pewnego rodzaju symulacji – we właściwym treningu powinieneś dostawać pozycję nie wiedząc jaki motyw się w niej kryje!
+
+Taki system treningu masz dostępny na:
+
+chess.com
+chesstempo.com
+lichess.org
+Jak widać problemu z materiałami do nauki zdecydowanie nie ma. Te strony udostępniają dziesiątki tysięcy zadań całkowicie za darmo.
+
+Problemem może być jedynie motywacja do treningu i znalezienie czasu na trening. Ponieważ tutaj liczy się systematyczność – zrób codziennie 30 minut treningu taktycznego, a po kilku miesiącach będziesz się dziwił jak mogłeś kiedyś tak mało widzieć!
+
+Pamiętaj, że trening taktyczny to maraton, a nie sprint. Na dowód załączam screen z progresu mojego ucznia, który od poziomu mocno początkującego (podstawki) przeszedł do poziomu zawodnika, który „jest w stanie podyskutować” (rzadko podstawia i całkiem sporo widzi):
+
+efekty treningu taktycznego
+Strategia
+Muszę przyznać, że jest to zdecydowanie najtrudniejszy do wytrenowania aspekt szachów, ponieważ w dużej mierze opiera się na wiedzy i doświadczeniu. Przeciwnie np. do liczenia wariantów, które głównie opiera się na umiejętnościach, które w stosunkowo krótkim czasie można podszkolić.
+
+Gra w szachy to głównie planowanie – konstruowanie „listy rzeczy do zrobienia”, której realizacja poprawi naszą pozycję. Ale skąd wiedzieć, gdzie dana figura stoi dobrze? Gdzie powinniśmy atakować? Które figury powinniśmy wymieniać?
+
+Początkujący szachista powinien przede wszystkim starać się kombinować „na chłopski rozum” i w międzyczasie poszerzać swoją wiedzę. Kiedy znasz dużo typowych planów gry, to wtedy łatwiej jest wymyślać kolejne!
+
+Trening strategii koniecznie należy zacząć od poznania algorytmu oceny pozycji. Jest to checklista, która pozwoli Ci wyłapać najważniejsze aspekty danej pozycji. Dzięki takiej analizie będziesz wiedział co należy poprawić, gdzie atakować oraz co kombinuje przeciwnik.
+
+Ocenę pozycji można streścić w kilku punktach:
+Sprawdzenie materiału
+Wyszukanie motywów taktycznych
+Ocena bezpieczeństwa monarchów
+Porównanie aktywności figur
+Ocena struktury pionowej
+Więcej na ten temat napisałem w moim kursie (bezpłatnym) „5 kroków do wyższego poziomu gry”, a cały temat rozebrałem na czynniki pierwsze w kursie „Ocena pozycji i konstruowanie planów gry”.
+
+Kiedy już wiesz jak oceniać pozycję to czas zabrać się za zdobywanie wiedzy, która pozwoli Ci ten proces doskonalić. Tutaj nie ma wielkiej filozofii. Trzeba po prostu czytać, oglądać, przerabiać co się da!
+
+Materiały które polecam:
+
+lekcje (dla początkujących)
+książki
+materiały wideo
+W tym miejscu nie mogę nie podać przykładu, który został wykorzystany w pierwotnej wersji artykułu:
+
+Na pewno każdy z Was, śledząc partie arcymistrzów miał taką sytuację: oglądam partię i nagle zostaje wykonany ruch, na pierwszy rzut oka, kompletnie bez sensu.
+_____________________________________________________________
+
+
+
+zadanie strategiczne
+Posunięcie białych
+Spróbujcie odgadnąć ruch oraz ideę GMa Aleksieja Jermolińskiego (rozwiązanie na końcu artykułu)
+______________________________________________________________
+Jednak po kilku kolejnych ruchach okazuje się, że była to bardzo błyskotliwa oraz logiczna idea.
+
+I wtedy zaczynam się zastanawiać, dlaczego ja na to nie wpadłem? Odpowiedź jest banalnie prosta – arcymistrz prawdopodobnie widział już wcześniej podobny manewr lub podobną ideę, którą zastosował we własnej partii.
+
+Ja tej wiedzy nie miałem, więc nie byłem wstanie wpaść na ten pomysł.
+
+Oczywiście to nie jest reguła, czasem zdarzają się nam „przebłyski geniuszu”. Istota treningu leży w tym, aby przebłyski zamienić w normę.
+
+Jakie materiały są potrzebne do nauki gry strategicznej? Oczywiście odpowiednie książki, po których przerobieniu nasza głowa zostanie nabita wieloma sposobami znajdywania najlepszego planu gry w każdej pozycji.
+
+Jeżeli chodzi o rynek polski, to według mnie najlepszą pozycją jest „Mistrzowska Strategia” IM-a Witalisa Sapisa, której recenzję napisałem jakiś czas temu.
+
+Oczywiście istnieje cała masa innych książek na ten temat. Jeżeli macie jakieś sugestie, to piszcie w komentarzach!
+
+Liczenie wariantów (nie wybacza!)
+Nawet najlepszy plan trzeba w odpowiedni sposób zrealizować, a do tego praktycznie zawsze niezbędne jest dokładne policzenie wariantów. Zabawne jest to, że jest to jeden z najprostszych aspektów szachów. Algorytm jest naprawdę banalny, ale niezwykle trudny w praktyce!
+
+Ważne jest to, że…
+
+Błędy w liczeniu wariantów mszczą się natychmiastowo!
+
+zadanie na liczenie wariantów
+2. Posunięcie białych
+Spróbujcie znaleźć najlepszą kontynuację dla białych! (odpowiedź na końcu artykułu)
+
+Na pewno każdy z Was miał podobną partię, którą zremisował, albo przegrał mimo posiadania dużo lepszej pozycji.
+
+Algorytm liczenia wariantów można zawrzeć w kilku punktach:
+Wybór posunięć kandydujących (czyli posunięć, które wydają nam się ciekawe)
+Przeliczenie każdej propozycji i zakończenie danego wariantu oceną
+Zagranie tego posunięcia, które prowadzi do najlepszej pozycji
+Jeżeli żadne z pierwotnie wybranych posunięć nie prowadzi do dobrej sytuacji to należy wrócić do punktu pierwszego i wybrać inne kandydaty
+I tak do skutku!
+Szerzej opisałem liczenie wariantów w moim kursie „5 kroków do wyższego poziomu gry” oraz w nagraniu:
+
+
+Dostępny jest też mój bardziej rozbudowany, ale płatny kurs na temat liczenia wariantów.
+
+Przy tym aspekcie gry w szachy nie mogę nie zwrócić uwagi na niezwykle istotną sprawę – wyobraźnię!
+
+Praktycznie niemożliwe jest liczenie wariantów na sensownym poziomie, jeżeli nie jesteśmy w stanie „zobaczyć” jak pozycja będzie wyglądała po kilku ruchach.
+
+U większości szachistów ta umiejętność pojawia się niejako naturalnie po ćwiczeniach praktycznych – graniu partii, w których przecież staramy się przewidzieć te kilka posunięć naprzód.
+
+Jeżeli natomiast masz z tym problem, to warto poćwiczyć na zadaniach, które łatwo możesz skonstruować sam. Oczywiście trzeba je wykonywać w pamięci (jeżeli nie jesteś w stanie robić tego w głowie, to ustawiaj sobie pustą szachownicę i rozwiązuj patrząc na nią – ale zawsze w pierwszej kolejności postaraj się rozwiązać zadanie w głowie!).
+
+Przykłady zadań na wyobraźnię:
+
+Jakiego koloru jest pole?
+
+g2
+a7
+c1
+Na jakie pola może się ruszyć goniec? (podaj przekątne)
+
+b2
+a4
+f3
+Jak biały hetman może zaszachować czarnego króla bez bycia zbitym? (podaj wszystkie możliwości)
+
+B: Hb2, Cz: Kd6
+Końcówki
+Właściwie każdy szachista zaczyna naukę gry w szachy od końcówek. Są to proste maty hetmanem, wieżą itp. Co zabawne (albo tragikomiczne?) spora część szachistów zatrzymuje się na tym poziomie, a to jest ogromny błąd.
+
+W jaki sposób podejść do końcówek?
+Końcówki teoretyczne
+Tutaj nie ma wielkiej finezji – jest pewna baza pozycji, które każdy szachista powinien sobie przyswoić, aby wiedzieć jak odpowiednio zareagować. Oczywiście bezsensowne było pójście „na hurra” i wkuwanie kilkuset pozycji.
+
+Polecam zacząć od podstaw, a później przerabiać sobie przykładowo 3 teoretyczne końcówki w tygodniu (ale tak, że „obudzony w środku nocy” jesteś w stanie powiedzieć jak należy grać!). Wysiłek będzie niewielki, a po roku mamy już naprawdę porządną wiedzę teoretyczną.
+
+Końcówki praktyczne
+W mojej ocenie najlepszym sposobem jest rozgrywanie takich pozycji „do gołych króli”. Część graczy wychodzi z założenia, że jak walka nie została rozstrzygnięta w debiucie, ani grze środkowej to trzeba podpisać remis i grać kolejną.
+
+Natomiast w swojej karierze wielokrotnie wygrywałem (a też przegrywałem!) końcówki, gdzie silnik twierdził, że jest kompletnie remisowo.
+
+Więcej na temat końcówek napisałem w artykule o trenowaniu ostatniej fazy partii, więc jeżeli jesteś zainteresowany tą fazą partii to powinieneś ten wpis przeczytać.
+
+Pamiętajcie, że gra w szachy dzieli się na trzy fazy: debiut, grę środkową i końcówkę, a każda z nich jest bardzo ważna!
+
+Debiut
+To jest element gry, który chyba najbardziej „rozgrzewa” amatorów. Oczywiście wiedza debiutowa jest niezbędna, aby myśleć o jakimś poważnym poziomie gry w szachy, ale też nie jest to jedyne, co się w szachach liczy.
+
+Moim zdaniem początkujący amator powinien przyswoić sobie wiedzę z mojego artykułu „repertuar debiutowy w godzinę”, a dopiero kiedy przejdzie na jakiś sensowny poziom może tę wiedzę rozbudowywać.
+
+(W końcu nic nam nie da znajomość 20-toruchowych wariantów, kiedy podwalimy figurę w 21-ym ruchu…)
+
+Natomiast jeżeli jesteś już szachistą z poważnym stażem, to Twoja praca nad debiutem powinna być złożona z kilku punktów:
+
+Przygotowanie źródeł
+Przygotowanie ogólnego opracowania
+Dopracowanie opracowania
+Granie treningowych partii on-line
+Powtórka opracowania
+Powtórzenie punktów 4-5 „do skutku”
+Granie debiutu w partiach turniejowych
+Dalsze powtarzanie punktów 5-7
+Rozszerzenie debiutu (zgodnie z punktami 1-8)
+Wszystkie te punkty omówiłem bardzo dokładnie w moim gościnnym artykule na infoszachu (ponad 4000 słów, ale myślę, że temat wyczerpany!).
+
+Jeżeli natomiast jesteś leniuchem, to możesz skorzystać z moich kursów debiutowych, wtedy masz gotową wiedzę podaną na tacy.
+
+Motywacja do treningu
+Nie chcę zabrzmieć jak typowy „kołcz”, ale cała wiedza opisana wyżej, nic Ci nie da, jeżeli nie będziesz sumiennie trenował. Samozaparcie i umiejętność regularnej pracy to cechy trudne do wypracowania, ale możliwe!
+
+Przede wszystkim pamiętaj, że najlepiej jest zacząć delikatnie. Jeżeli natychmiastowo narzucisz sobie 3h treningu dziennie, to po dwóch dniach Ci się odechce.
+
+Ale jeżeli zrobisz 30 minut treningu dziennie, to prawdopodobnie dasz radę utrzymać takie tempo. Najtrudniej jest zacząć!
+
+Więcej o motywacji do treningu (i moich lifehackach) możesz przeczytać w tym artykule.
+
+Plan treningowy
+Pisząc te słowa jestem po moim trzecim razie na siłowni i z własnego doświadczenia jestem w stanie stwierdzić, że najtrudniej jest zacząć. Kiedy już się wkręcisz w temat i dużo rozumiesz/umiesz, to wtedy idzie gładko.
+
+Dlatego przygotowałem plan treningowy „od zera do bohatera”, którego realizacja pomoże Ci zacząć – potem będzie już z górki.
+
+Wszystko wyjaśniam na nagraniu:
+
+
+Ale może jesteś zawodnikiem, który ten etap ma już za sobą? W takim razie weź swoje ostatnie 50 rozegranych partii i zabierz się za analizę, a potem za trening!
+
+Partie przeanalizowane? Trening zrealizowany? Czas zakupić szachowe gadżety i wybrać się na turniej!
+
+
+Daj znać w komentarzu, czy artykuł był przydatny!
+
+Rozwiązania:
+1) 1.Sb1! z planem ataku pionka c6 oraz przestawienia skoczka na pole d2 (do obrony przed groźbą Hf6 i Gxh3)
+
+2) Jest pozycja z mojej partii (D.Czerw-K.Khamidov z Cracovii gr.B 2015/2016)
+Najlepsza kontynuacja: 1.S:a5 G:f1 2.G:f1 z wygraną
+Ja uznałem, że warto wtrącić Sc6 „z tempem” – nie wziąłem jednak pod uwagę jedynego ratującego czarne wariantu.
+W partii: 1.S:a5 G:f1 2.Sc6? G:g2! 3.S:d8 G:f3 z równą grą (partia zakończyła się remisem) jeżeli jesteś zainteresowany szybkim rozwojem to zdecydowanie powinieneś wprowadzić szachowe algorytmy myślenia!

@@ -1,0 +1,70 @@
+  Standard dla sprzętu szachowego używanego podczas turnieju szachowego FIDE (przenoszony również na inne turnieje lokalne, nie organizowane przy udziale FIDE) jest określany przez Światową Federację Szachową FIDE. Dzięki temu wiemy w jaki sprzęt warto inwestować, wiemy również, że biorąc udział w takim turnieju w innym kraju nie spotka nas niespodzianka w postaci dziwnego kształtu czy rozmiaru szachów, którymi będziemy grać.
+
+Przy wyborze szachów profesjonalnych, które będą służyły nam do nauki, czy organizacji turniejów szachowych warto kierować się określonymi przez FIDE standardami.
+
+ 
+Bierki szachowe (nazywane również figurami szachowymi)
+ 
+ 
+Z jakiego materiału powinny być wykonane profesjonalne bierki szachowe?
+
+     Bierki szachowe powinny być wykonane z drewna, plastiku lub imitacji tych materiałów (pojęcie imitacji nie zostało doprecyzowane). Rozmiar powinien być proporcjonalny do ich wysokości, inne elementy taki jak stabilność, czy względy estetyczne również mogą być brane pod uwagę. Waga poszczególnych bierek powinna pozwolić na wykonanie ruchu w sposób komfortowy, jeśli więc materiał, z którego są wykonane byłby zbyt lekki, należałoby dodatkowo dociążyć bierkę - najlepiej metalem umieszczonym w podstawie.
+ 
+Jaki rozmiar powinny mieć profesjonalne bierki szachowe?
+
+Rekomendowana przez FIDE wysokość poszczególnych bierek to:
+Król - 95 mm
+Hetman - 85 mm
+Goniec - 70 mm
+Skoczek - 60 mm
+Wieża - 55 mm
+Pion - 50 mm
+     Średnica podstawy poszczególnych bierek powinna wynosić od 40 - 50 % ich wysokości. Poszczególne wymiary mogą wahać się nawet do 10% w stosunku do podanych wymiarów, ale podstawowe założenia, przykładowo - Król wyższy od Hetmana, powinno zostać zachowane. Jak prawidłowo dopasować bierki szachowe do szachownicy przeczytasz w "Rozmiar Szachów - Przewodnik"
+ 
+Jaki powinny mieć kształt i kolor?
+
+     FIDE rekomenduje, aby na turniejach szachowych używać bierek w stylu Staunton (więcej po kliknięciu w link). Bierki powinny posiadać łatwy do odróżnienia wygląd, przede wszystkim Król powinien wyraźnie różnić się od Hetmana (zazwyczaj na głowicy króla znajduje się krzyż, a na głowicy Hetmana, nazywanego również Królową korona zwieńczona kulą). Głowica Gońca powinna być wykonana w innym kolorze lub posiadać nacięcie odróżniające go od Piona.
+
+     Część bierek szachowych nazywana "czarnymi" powinna być wykonana w odcieniach czerni lub brązu. Może być również wykonana z drewna o takim odcieniu np. hebanu, palisandru, akacji indyjskiej. "Białe" bierki szachowe powinny zostać wykonane w kolorze białym, kremowym lub innym jasnym. W przypadku bierek drewnianych odpowiedni będzie również naturalny kolor drewna, pod warunkiem, że jest to kolor jasny (np. grab, bukszpan). Bierki nie powinny być zbyt błyszczące (błyszczący lakier, metaliczna powłoka, szkło) a ich wygląd powinien być przyjemny dla oka.
+
+ 
+Szachownice (nazywane również deskami szachowymi)
+ 
+Materiał i kolor szachownicy, jaki wybrać?
+
+Na turniejach szachowych rangi światowej (np. Mistrzostwa Świata) lub kontynentalnej (np. Mistrzostwa Europy) powinny być używane szachownice drewniane. Na pozostałych turniejach rejestrowanych w FIDE można używać szachownic drewnianych, plastikowych lub kartonowych charakteryzujących się odpowiednią sztywnością. Dopuszczalne są szachownice kamienne (o ile organizator i sędzia główny wyrażą zgodę na ich używanie) w odpowiednich kolorach.
+
+Szachownice wykonane z naturalnego drewna powinny posiadać odpowiedni kontrast pomiędzy jasnymi i ciemnymi polami. Jasne (białe) pola zazwyczaj wykonywane są z klonu, jaworu czy brzozy. Ciemne pola (czarne) mogą by wykonane z każdego drewna, które będzie posiadało odpowiedni kontrast do pola jasnego. Najpopularniejsze gatunki drewna stosowanego na ciemne pola to: mahoń (oraz wszelkie mahoniowce, sapele), orzech, paduk, wenge, heban, akacja indyjska, sekwoja.
+
+Poniżej zestawienie wykonanych z różnych gatunków drewna szachownic, które można kupić w naszym sklepie.  
+ 
+szachownica machoń jawor	Ciemne pole - mahoń / sapele
+Jasne pole - jawor / klon
+deska szachowa orzech klon	Ciemne pole - orzech
+Jasne pole - klon
+pola szachownicy paduk klon	Ciemne pole - paduk
+Jasne pole - klon
+hebanizowana olcha i klon	Ciemne pole - olcha (hebanizowana)
+Jasne pole - klon
+wenge/jawor	Ciemne pole - wenge
+Jasne pole - jawor
+zaokrąglone rogi szachownicy drewnianej	Ciemne pole - akacja indyjska
+Jasne pole - bukszpan
+piękna deska szachowa 	Ciemne pole - sekwoja (redwood)
+Jasne pole - bukszpan
+szachownica hebanowa	Ciemne pole - heban                      
+Jasne pole - bukszpan                   
+
+Wszystkie szachownice powinny mieć matowe wykończenie, tak aby uniknąć refleksów świetlnych, które mogą pojawić się na powierzchni szachownicy zarówno na sprawą światła słonecznego jak i sztucznego światła generowanego przez żarówki i świetlówki.
+
+Szachownica turniejowa może posiadać opis alfanumeryczny, nie jest to jednak wymagane.
+
+ 
+Jaki rozmiar szachownicy? Jaki rozmiar pola?
+ 
+Według FIDE standardem turniejowym dla szachownicy jest rozmiar jej pola (będącego kwadratem),
+który powinien zawierać się w przedziale od 50 do 60 mm (długość boków pola szachowego). Najpopularniejszym rozmiarem szachownicy wydaje się być ten z polami o bokach 55 mm. Pola w rozmiarze 55 mm posiadają elektroniczne szachownice DGT i jedne z najpopularniejszych, polskich "ekonomicznych" szachownic turniejowych - składane na pół, tekturowe szachownice w kolorze żółtym i brązowym. 
+
+Szachownica nie powinna przesuwać lub ślizgać się po stole, warto więc zwrócić uwagę na to czy po jej drugiej stronie (szachownice wykonane z drewna) zostały zamontowane specjalne kółeczka (wykonane z pianki, gumy czy filcu) lub inny materiał, dzięki któremu szachownica nabierze lepszej przyczepności do podłoża. W przypadku szachownic tekturowych i plastikowych właściwości wykluczające lub minimalizujące przesuwanie się po stole powinien posiadać materiał, z którego zostały wykonane.      
+
+Dodatkowe wytyczne w kwestii doboru odpowiedniego rozmiaru pola szachownicy można znaleźć w naszym przewodniku po rozmiarach szachów - https://www.szachowo.pl/rozmiar-szachow-przewodnik-pm-56.html. 

@@ -1,57 +1,135 @@
 #!/usr/bin/env python3
+from __future__ import unicode_literals
+
+import math
+import random
 import sys
-import unittest
 
 import nltk
-import argparse
 from collections import defaultdict
-import unittest
-from unittest.mock import patch, Mock, mock_open
-
-parser = argparse.ArgumentParser()
-parser.add_argument("-s", "--sequence", type=str, help='Write a sequence, which the program will analyze.')
-parser.add_argument("-t", "--type", type=str,
-                    help="Write a type of word, which the program will search in the sequence.")
-parser.add_argument("-o", "--output", type=str, help="Write a path to output file.")
-parser.add_argument("-i", "--input", type=str, help="Write a path to input file.")
-args = parser.parse_args()
 
 
-def counter(args):
-    nnp_counter: int = 0
-    nn_counter: int = 0
-    vbz_counter: int = 0
-    dt_counter: int = 0
-    nns_counter: int = 0
-    vbd_counter: int = 0
-    in_counter: int = 0
-    rb_counter: int = 0
-    prp_counter: int = 0
-    vbp_counter: int = 0
-    to_counter: int = 0
-    vb_counter: int = 0
-    jj_counter: int = 0
-    at_counter: int = 0
-    beg_counter: int = 0
-    ql_counter: int = 0
-    cs_counter: int = 0
-    bez_counter: int = 0
-    other_counter: int = 0
+array_counter = []
+
+terms = ['szachy', 'pozycja', 'taktyka', 'białe', 'czarne', 'wygrana', 'przegrana', 'błąd', 'strategia',
+         'związanie', 'widełki', 'partia']
+
+students_terms = ['apple', 'linux', 'php', 'java', 'windows', 'python',
+                  'c++', 'assembler', 'książki', 'piwo', 'wino', 'spanie']
+
+
+def printLine():
+    line: str = ""
+    for x in range(90):
+        line += "="
+    print(line)
+
+
+def printIndexes():
+    indexes: str = "   "
+    for x in range(12):
+        indexes += "{0: <7}".format("|D{num}".format(num=x))
+    print(indexes)
+
+
+def printTerms(terms_array):
+    indexes: str = "   "
+    for term in terms_array:
+        indexes += "{0: <10}".format("|{num}".format(num=term))
+    print(indexes)
+
+
+def printOutput(name, list):
+    printLine()
+    print(name)
+    if name != "Terms" and name != "Students' terms":
+        printIndexes()
+    else:
+        if name == "Terms":
+            printTerms(terms)
+        else:
+            printTerms(students_terms)
+    num: int = 0
+    for array in list:
+        text: str = ""
+        for x in array:
+            if name != "Terms" and name != "Students' terms":
+                text += "{0: <7}".format("|{num}".format(num=x))
+            else:
+                text += "{0: <10}".format("|{num}".format(num=x))
+        index = "{0: <3}".format("D{}".format(num))
+        print("{}{}|\n".format(index, text))
+        num += 1
+
+
+def calculateMatrix(name, array_source):
+    big_matrix = []
+    for z in range(len(array_source)):
+        matrix = []
+        for x in range(len(array_source)):
+            sum: float = 0
+            czebyszew_array = []
+            for y in range(12):
+                array_one: float = float(array_source[z][y])
+                array_two: float = float(array_source[x][y])
+                # euklides
+                if name == 'euklides':
+                    sum += pow(abs((array_one - array_two)), 2)
+                # manhattan
+                if name == 'manhattan':
+                    sum += abs(array_one - array_two)
+                # czebyszew
+                if name == 'czebyszew':
+                    czebyszew_array.append(abs(array_one - array_two))
+            if name == 'czebyszew':
+                sum = max(czebyszew_array)
+            if name == 'euklides':
+                sum = math.sqrt(sum)
+                matrix.append("{:.2f}".format(sum))
+            else:
+                matrix.append(int(sum))
+        big_matrix.append(matrix)
+    return big_matrix
+
+
+def counter():
+    szachy_counter: int = 0
+    pozycja_counter: int = 0
+    taktyka_counter: int = 0
+    biale_counter: int = 0
+    czarne_counter: int = 0
+    wygrana_counter: int = 0
+    przegrana_counter: int = 0
+    blad_counter: int = 0
+    strategia_counter: int = 0
+    zwiazanie_counter: int = 0
+    widelki_counter: int = 0
+    partia_counter: int = 0
 
     sequence: str = ""
     text: str = ""
     result: str = ""
     words = defaultdict(int)
 
-    if args.sequence is not None:
-        if args.input is not None:
-            print("Error: You cannot use 'sequence' and 'input' parameters at the same time.", file=sys.stderr)
-            sys.exit(1)
-        text = nltk.word_tokenize(args.sequence)
-        sequence = args.sequence
-    elif args.input is not None:
+    for x in range(1, 13):
+        szachy_counter = 0
+        pozycja_counter = 0
+        taktyka_counter = 0
+        biale_counter = 0
+        czarne_counter = 0
+        wygrana_counter = 0
+        przegrana_counter = 0
+        blad_counter = 0
+        strategia_counter = 0
+        zwiazanie_counter = 0
+        widelki_counter = 0
+        partia_counter = 0
+        sequence = ""
+
+        file = "txt{number}.txt".format(number=x)
+        array = []
         try:
-            text_file = open(args.input)
+            text_file = open(file, encoding="UTF-8")
         except FileNotFoundError as e:
             print(e, file=sys.stderr)
             sys.exit(1)
@@ -60,308 +138,130 @@ def counter(args):
                 sequence += line
             text = nltk.word_tokenize(sequence)
             text_file.close()
-    else:
-        sequence = input("Write a sequence: ")
-        text = nltk.word_tokenize(sequence)
 
-    tagged_text = nltk.pos_tag(text)
+        tagged_text = nltk.pos_tag(text)
 
-    for pair in tagged_text:
-        word: str = pair[0]
-        word_type: str = pair[1]
-        if word_type == "NNP":
-            nnp_counter += 1
-        elif word_type == "NN":
-            nn_counter += 1
-        elif word_type == "VBZ":
-            vbz_counter += 1
-        elif word_type == "DT":
-            dt_counter += 1
-        elif word_type == "NNS":
-            nns_counter += 1
-        elif word_type == "VBD":
-            vbd_counter += 1
-        elif word_type == "IN":
-            in_counter += 1
-        elif word_type == "RB":
-            rb_counter += 1
-        elif word_type == "PRP":
-            prp_counter += 1
-        elif word_type == "VBP":
-            vbp_counter += 1
-        elif word_type == "TO":
-            to_counter += 1
-        elif word_type == "VB":
-            vb_counter += 1
-        elif word_type == "JJ":
-            jj_counter += 1
-        elif word_type == "AT":
-            at_counter += 1
-        elif word_type == "BEG":
-            beg_counter += 1
-        elif word_type == "QL":
-            ql_counter += 1
-        elif word_type == "CS":
-            cs_counter += 1
-        elif word_type == "BEZ":
-            bez_counter += 1
-        else:
-            other_counter += 1
-        if word_type == args.type:
-            words[word] += 1
+        for pair in tagged_text:
+            word: str = pair[0]
+            word = word.lower()
 
-    if args.output is None:
-        if args.type is None:
-            if nnp_counter > 0:
-                print("Proper Noun (NNP): {}".format(nnp_counter))
-                result += "Proper Noun (NNP): {}\n".format(nnp_counter)
-            if nn_counter > 0:
-                print("Common Noun (NN): {}".format(nn_counter))
-                result += "Common Noun (NN): {}\n".format(nn_counter)
-            if vbz_counter > 0:
-                print("Verb 3rd person (VBZ): {}".format(vbz_counter))
-                result += "Verb 3rd person (VBZ): {}\n".format(vbz_counter)
-            if dt_counter > 0:
-                print("Determiners (DT): {}".format(dt_counter))
-                result += "Determiners (DT): {}\n".format(dt_counter)
-            if nns_counter > 0:
-                print("Common noun plural (NNS): {}".format(nns_counter))
-                result += "Common noun plural (NNS): {}\n".format(nns_counter)
-            if vbd_counter > 0:
-                print("Verb in past tense (VBD): {}".format(vbd_counter))
-                result += "Verb in past tense (VBD): {}\n".format(vbd_counter)
-            if in_counter > 0:
-                print("Preposition (IN): {}".format(in_counter))
-                result += "Preposition (IN): {}\n".format(in_counter)
-            if rb_counter > 0:
-                print("Adverb (RB): {}".format(rb_counter))
-                result += "Adverb (RB): {}\n".format(rb_counter)
-            if prp_counter > 0:
-                print("Possessive pronoun (PRP): {}".format(prp_counter))
-                result += "Possessive pronoun (PRP): {}\n".format(prp_counter)
-            if vbp_counter > 0:
-                print("Verb, sing. present (VBP): {}".format(vbp_counter))
-                result += "Verb, sing. present (VBP): {}\n".format(vbp_counter)
-            if to_counter > 0:
-                print("To (TO): {}".format(to_counter))
-                result += "To (TO): {}\n".format(to_counter)
-            if vb_counter > 0:
-                print("Verb (VB): {}".format(vb_counter))
-                result += "Verb (VB): {}\n".format(vb_counter)
-            if jj_counter > 0:
-                print("Adjective (JJ): {}".format(jj_counter))
-                result += "Adjective (JJ): {}\n".format(jj_counter)
-            if at_counter > 0:
-                print("At (AT): {}".format(at_counter))
-                result += "At (AT): {}\n".format(at_counter)
-            if beg_counter > 0:
-                print("Beg (BEG): {}".format(beg_counter))
-                result += "Beg (BEG): {}\n".format(beg_counter)
-            if ql_counter > 0:
-                print("Ql (QL): {}".format(ql_counter))
-                result += "Ql (QL): {}\n".format(ql_counter)
-            if cs_counter > 0:
-                print("Cs (CS): {}".format(cs_counter))
-                result += "Cs (CS): {}\n".format(cs_counter)
-            if bez_counter > 0:
-                print("Bez (BEZ): {}".format(bez_counter))
-                result += "Bez (BEZ): {}\n".format(bez_counter)
-            if other_counter > 0:
-                print("Other (*): {}".format(other_counter))
-                result += "Other (*): {}\n".format(other_counter)
-        else:
-            if args.type == "NNP":
-                print("Proper Noun (NNP): {}".format(nnp_counter))
-                result += "Proper Noun (NNP): {}\n".format(nnp_counter)
-            elif args.type == "NN":
-                print("Common Noun (NN): {}".format(nn_counter))
-                result += "Common Noun (NN): {}\n".format(nn_counter)
-            elif args.type == "VBZ":
-                print("Verb 3rd person (VBZ): {}".format(vbz_counter))
-                result += "Verb 3rd person (VBZ): {}\n".format(vbz_counter)
-            elif args.type == "DT":
-                print("Determiners (DT): {}".format(dt_counter))
-                result += "Determiners (DT): {}\n".format(dt_counter)
-            elif args.type == "NNS":
-                print("Common noun plural (NNS): {}".format(nns_counter))
-                result += "Common noun plural (NNS): {}\n".format(nns_counter)
-            elif args.type == "VBD":
-                print("Verb in past tense (VBD): {}".format(vbd_counter))
-                result += "Verb in past tense (VBD): {}\n".format(vbd_counter)
-            elif args.type == "IN":
-                print("Preposition (IN): {}".format(in_counter))
-                result += "Preposition (IN): {}\n".format(in_counter)
-            elif args.type == "RB":
-                print("Adverb (RB): {}".format(rb_counter))
-                result += "Adverb (RB): {}\n".format(rb_counter)
-            elif args.type == "PRP":
-                print("Possessive pronoun (PRP): {}".format(prp_counter))
-                result += "Possessive pronoun (PRP): {}\n".format(prp_counter)
-            elif args.type == "VBP":
-                print("Verb, sing. present (VBP): {}".format(vbp_counter))
-                result += "Verb, sing. present (VBP): {}\n".format(vbp_counter)
-            elif args.type == "TO":
-                print("To (TO): {}".format(to_counter))
-                result += "To (TO): {}\n".format(to_counter)
-            elif args.type == "VB":
-                print("Verb (VB): {}".format(vb_counter))
-                result += "Verb (VB): {}\n".format(vb_counter)
-            elif args.type == "JJ":
-                print("Adjective (JJ): {}".format(jj_counter))
-                result += "Adjective (JJ): {}\n".format(jj_counter)
-            elif args.type == "AT":
-                print("At (AT): {}".format(at_counter))
-                result += "At (AT): {}\n".format(at_counter)
-            elif args.type == "BEG":
-                print("Beg (BEG): {}".format(beg_counter))
-                result += "Beg (BEG): {}\n".format(beg_counter)
-            elif args.type == "QL":
-                print("Ql (QL): {}".format(ql_counter))
-                result += "Ql (QL): {}\n".format(ql_counter)
-            elif args.type == "CS":
-                print("Cs (CS): {}".format(cs_counter))
-                result += "Cs (CS): {}\n".format(cs_counter)
-            elif args.type == "BEZ":
-                print("Bez (BEZ): {}".format(bez_counter))
-                result += "Bez (BEZ): {}\n".format(bez_counter)
-            srt = {k: v for k, v in sorted(words.items(), key=lambda item: item[1])}
-            for key, value in srt.items():
-                print("Word '{}' occurs {} time(s).".format(key, value))
-                result += "Word '{}' occurs {} time(s).\n".format(key, value)
-    else:
-        if args.type is None:
-            if nnp_counter > 0:
-                result += "Proper Noun (NNP): {}\n".format(nnp_counter)
-            if nn_counter > 0:
-                result += "Common Noun (NN): {}\n".format(nn_counter)
-            if vbz_counter > 0:
-                result += "Verb 3rd person (VBZ): {}\n".format(vbz_counter)
-            if dt_counter > 0:
-                result += "Determiners (DT): {}\n".format(dt_counter)
-            if nns_counter > 0:
-                result += "Common noun plural (NNS): {}\n".format(nns_counter)
-            if vbd_counter > 0:
-                result += "Verb in past tense (VBD): {}\n".format(vbd_counter)
-            if in_counter > 0:
-                result += "Preposition (IN): {}\n".format(in_counter)
-            if rb_counter > 0:
-                result += "Adverb (RB): {}\n".format(rb_counter)
-            if prp_counter > 0:
-                result += "Possessive pronoun (PRP): {}\n".format(prp_counter)
-            if vbp_counter > 0:
-                result += "Verb, sing. present (VBP): {}\n".format(vbp_counter)
-            if to_counter > 0:
-                result += "To (TO): {}\n".format(to_counter)
-            if vb_counter > 0:
-                result += "Verb (VB): {}\n".format(vb_counter)
-            if jj_counter > 0:
-                result += "Adjective (JJ): {}\n".format(jj_counter)
-            if at_counter > 0:
-                result += "At (AT): {}\n".format(at_counter)
-            if beg_counter > 0:
-                result += "Beg (BEG): {}\n".format(beg_counter)
-            if ql_counter > 0:
-                result += "Ql (QL): {}\n".format(ql_counter)
-            if cs_counter > 0:
-                result += "Cs (CS): {}\n".format(cs_counter)
-            if bez_counter > 0:
-                result += "Bez (BEZ): {}\n".format(bez_counter)
-            if other_counter > 0:
-                result += "Other (*): {}\n".format(other_counter)
-        else:
-            if args.type == "NNP":
-                result += "Proper Noun (NNP): {}\n".format(nnp_counter)
-            elif args.type == "NN":
-                result += "Common Noun (NN): {}\n".format(nn_counter)
-            elif args.type == "VBZ":
-                result += "Verb 3rd person (VBZ): {}\n".format(vbz_counter)
-            elif args.type == "DT":
-                result += "Determiners (DT): {}\n".format(dt_counter)
-            elif args.type == "NNS":
-                result += "Common noun plural (NNS): {}\n".format(nns_counter)
-            elif args.type == "VBD":
-                result += "Verb in past tense (VBD): {}\n".format(vbd_counter)
-            elif args.type == "IN":
-                result += "Preposition (IN): {}\n".format(in_counter)
-            elif args.type == "RB":
-                result += "Adverb (RB): {}\n".format(rb_counter)
-            elif args.type == "PRP":
-                result += "Possessive pronoun (PRP): {}\n".format(prp_counter)
-            elif args.type == "VBP":
-                result += "Verb, sing. present (VBP): {}\n".format(vbp_counter)
-            elif args.type == "TO":
-                result += "To (TO): {}\n".format(to_counter)
-            elif args.type == "VB":
-                result += "Verb (VB): {}\n".format(vb_counter)
-            elif args.type == "JJ":
-                result += "Adjective (JJ): {}\n".format(jj_counter)
-            elif args.type == "AT":
-                result += "At (AT): {}\n".format(at_counter)
-            elif args.type == "BEG":
-                result += "Beg (BEG): {}\n".format(beg_counter)
-            elif args.type == "QL":
-                result += "Ql (QL): {}\n".format(ql_counter)
-            elif args.type == "CS":
-                result += "Cs (CS): {}\n".format(cs_counter)
-            elif args.type == "BEZ":
-                result += "Bez (BEZ): {}\n".format(bez_counter)
-            srt = {k: v for k, v in sorted(words.items(), key=lambda item: item[1])}
-            for key, value in srt.items():
-                result += "Word '{}' occurs {} time(s).\n".format(key, value)
-        try:
-            text_file = open(args.output, "w")
-        except FileNotFoundError as e:
-            print("Error {}: File '{}' doesn't exist.".format(e, args.output), file=sys.stderr)
-        else:
-            text_file.write(result)
-            text_file.close()
-        finally:
-            if result != "":
-                print("Result has been saved to file '{}'.".format(args.output))
+            if word == "szachy" or word == "szachów" or word == "szachom" or word == "szachami" or word == "szachach":
+                szachy_counter += 1
+            elif word == "pozycja" or word == "pozycji" or word == "pozycję" or word == "pozycją" or word == "pozycje" \
+                    or word == "pozycjom" or word == "pozycjami" or word == "pozycjach":
+                pozycja_counter += 1
+            elif word == "taktyka" or word == "taktyki" or word == "taktyce" or word == "taktykę" or word == "taktyką" \
+                    or word == "taktyk" or word == "taktykami" or word == "taktykach":
+                taktyka_counter += 1
+            elif word == "białe" or word == "białych" or word == "białym" or word == "białymi":
+                biale_counter += 1
+            elif word == "czarne" or word == "czarnych" or word == "czarnym" or word == "czarnymi":
+                czarne_counter += 1
+            elif word == "wygrana" or word == "wygranej" or word == "wygraną" or word == "wygrane" \
+                    or word == "wygranych" or word == "wygranym" or word == "wygranymi" or word == "wygrać":
+                wygrana_counter += 1
+            elif word == "przegrana" or word == "przegranej" or word == "przegraną" or word == "przegrane" \
+                    or word == "przegranych" or word == "przegranym" or word == "przegranymi" or word == "przegrać":
+                przegrana_counter += 1
+            elif word == "błąd" or word == "błędu" or word == "błędowi" or word == "błędem" or word == "błędzie" \
+                    or word == "błędy" or word == "błędów" or word == "błędom" or word == "błędami" or word == "błędach":
+                blad_counter += 1
+            elif word == "strategia" or word == "strategii" or word == "strategię" or word == "strategią" \
+                    or word == "strategie" or word == "strategiom" or word == "strategiami" or word == "strategiach":
+                strategia_counter += 1
+            elif word == "związanie" or word == "związania" or word == "związaniu" or word == "związaniem" \
+                    or word == "związań" or word == "związaniom" or word == "związaniami" or word == "związaniach":
+                zwiazanie_counter += 1
+            elif word == "widełki" or word == "widełek" or word == "widełkom" or word == "widełkami" \
+                    or word == "widełkach":
+                widelki_counter += 1
+            elif word == "partia" or word == "partii" or word == "partię" or word == "partią" or word == "partie" \
+                    or word == "partiom" or word == "partiami" or word == "partiach":
+                partia_counter += 1
+
+        array.append(szachy_counter)
+        array.append(pozycja_counter)
+        array.append(taktyka_counter)
+        array.append(biale_counter)
+        array.append(czarne_counter)
+        array.append(wygrana_counter)
+        array.append(przegrana_counter)
+        array.append(blad_counter)
+        array.append(strategia_counter)
+        array.append(zwiazanie_counter)
+        array.append(widelki_counter)
+        array.append(partia_counter)
+
+        array_counter.append(array)
+
+    # zad1 (calculating distance between terms)
+    euklides_calculator = calculateMatrix('euklides', array_counter)
+    czebyszew_calculator = calculateMatrix('czebyszew', array_counter)
+    manhattan_calculator = calculateMatrix('manhattan', array_counter)
+
+    # zad1 - print output
+    printOutput("Terms", array_counter)
+    printOutput("Euklides's distance", euklides_calculator)
+    printOutput("Czebyszew's distance", czebyszew_calculator)
+    printOutput("Manhattan's distance", manhattan_calculator)
+    printLine()
+
+    # zad2 - recommendation (closest)
+    closest: int = None
+    closest_sum: float = 0
+    user_vector: int = 3
+    for x in range(12):
+        check_sum: float = float(euklides_calculator[user_vector][x])
+        if x != user_vector and check_sum != 0:
+            if closest is None:
+                closest = x
+                closest_sum = check_sum
             else:
-                print("There is no content to save.")
+                if check_sum < closest_sum:
+                    closest = x
+                    closest_sum = check_sum
+
+    # zad2 - print output
+    print("Closest vector to the user vector ({user}) is vector {vector} (distance = {sum})"
+          .format(user=user_vector, vector=closest, sum=closest_sum))
+    printLine()
+
+    # zad3 - good/bad client
+    good_vector = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    bad_vector = [10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10]
+    neutral_vector = []
+    for x in range(12):
+        neutral_vector.append(random.randint(1, 10))
+    client_vectors = [good_vector, bad_vector, neutral_vector]
+    client_vectors_euklides = calculateMatrix('euklides', client_vectors)
+
+    # zad3 - print output
+    neutral_vector_string: str = ""
+    verdict: str = ""
+    for x in range(12):
+        neutral_vector_string += "[" + str(neutral_vector[x]) + "] "
+    print('Neutral vector: {}'.format(neutral_vector_string))
+    if client_vectors_euklides[2][0] < client_vectors_euklides[2][1]:
+        verdict = "good"
+    else:
+        verdict = "bad"
+    print('Neutral vector is closer to {ver} vector (good={good}, bad={bad})'
+          .format(ver=verdict, good=client_vectors_euklides[2][0], bad=client_vectors_euklides[2][1]))
+
+    # zad4 - compare students
+    students_vectors = []
+    for x in range(12):
+        student_vector = []
+        for y in range(12):
+            student_vector.append(random.randint(1, 100))
+        students_vectors.append(student_vector)
+    students_euklides = calculateMatrix('euklides', students_vectors)
+
+    # zad4 - print output
+    printOutput("Students' terms", students_vectors)
+    printOutput("Students' distances", students_euklides)
 
 
 if "__main__" == __name__:
-    counter(args)
+    counter()
 
-
-class CounterTests(unittest.TestCase):
-    @patch('builtins.print')
-    def test_argument_sequence(self, mock_print):
-        args.sequence = "Ala"
-        counter(args)
-        mock_print.assert_called_with("Common Noun (NN): 1")
-
-    @patch('builtins.print')
-    def test_argument_type(self, mock_print):
-        args.type = "NNP"
-        args.sequence = "Ala has a cat."
-        counter(args)
-        mock_print.assert_called_with("Word 'Ala' occurs 1 time(s).")
-
-    @patch('builtins.print')
-    def test_argument_input(self, mock_print):
-        test_file = open("test_file_input.txt", "w")
-        test_file.write("Ala")
-        test_file.close()
-        args.input = "test_file_input.txt"
-        counter(args)
-        mock_print.assert_called_with("Common Noun (NN): 1")
-
-    @patch('builtins.print')
-    def test_argument_output(self, mock_print):
-        args.sequence = "Ala has a cat."
-        args.output = "test_file_output.txt"
-        counter(args)
-        mock_print.assert_called_with("Result has been saved to file 'test_file_output.txt'.")
-
-    @patch('builtins.print')
-    def test_arguments_sequence_and_input(self, mock_print):
-        args.sequence = "Ala has a cat."
-        test_file = open("test_file_input.txt", "w")
-        test_file.write("Ala")
-        test_file.close()
-        args.input = "test_file_input.txt"
-        counter(args)
-        mock_print.assert_called_with("Common Noun (NN): 1")

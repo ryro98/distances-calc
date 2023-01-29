@@ -1,0 +1,30 @@
+Niedawno uświadomiłem sobie ogrom braków w mojej taktyce szachowej. Zrobiło mi się łyso, więc rozpocząłem regularne ćwiczenia. Od miesiąca staram się codziennie rozwiązać przynajmniej kilka zdań, jednocześnie przykładając należytą uwagę do tego co robię. Ku mojemu miłemu zaskoczeniu efekty pojawiły się szybciej niż oczekiwałem.
+
+Oczywiście, nie osiągnąłem rankingu powyżej 2000 w zadaniach. Na chesstempo.com mój wynik taktyczny oscyluje ostatnio ok. 1720 – w szczytowym momencie przebiłem linię oporu nawet na 1750. Jednak na tym etapie to raczej odchylenie od normy.
+Powiem więcej, nawet 1720 uważam za przekłamanie in plus. Zdarza mi się, że na zdanie poświęcam nawet powyżej 20 minut, co w realiach szachów internetowych – gdzie gram 25-30 minut na zawodnika – to marzenie poza horyzontem zdarzeń. Mam jednak swoje powody – postanowiłem, że zmuszam mózg to maksymalnego wysiłku. Chcę zrozumieć pozycję, poszukać motywów taktycznych, przeliczyć warianty. W przeciwnym przypadku zawsze jest pokusa, żeby wykonać szybkie posunięcie, gdzie decyzja jest warunkowana intuicją. Jeśli się uda to świetnie, ale nie do końca wiadomo dlaczego dane posunięcie było tym najlepszym.
+
+Nie przeciągając wstępu poniżej zamieszczam moje spostrzeżenia. Cześć pokrywa się z tym co wyczytałem w literaturze szachowej, niektóre wydają mi się moimi własnymi obserwacjami (choć nie wykluczam, że zostały także wcześniej gdzieś odnotowane).
+
+Na koniec przypomnienie – nie jestem trenerem szachowym, tylko 100 procentowym zapaleńcem – amatorem szachowym. Moje rozważania proponuję potraktować jako przyczynek do własnych poszukiwań i analiz. Jeśli chcesz mieć pewność, że podążasz właściwą drogą proponuję Ci zapisanie się do klubu szachowego lub na korepetycje szachowe. W Internecie znajdziesz wielu dobrych trenerów szachowych.
+
+Taktyka szachowa – kwestie fundamentalne
+Zachowuj dyscyplinę i chłodny umysł – zdecydowanie meta zasada numer 1. Aleksander Kotow zachęcał, żeby każdy wariant liczyć tylko raz, ale dobrze. Czasem trzeba sprawdzić kilka wariantów, czasu jest mało w trakcie partii, więc tym bardziej trzeba postępować systematycznie.
+Dozuj stopień trudności treningu – jeśli jednego dnia dołożyłem do pieca trudnymi zdaniami, to następnego biorę te łatwiejsze. Rozbrajanie prostych taktyk też pomaga, umysł szybciej wyszukuje typowe schematy na szachownicy (np. słabość ostatniej linii, szpila, rentgen, etc.).
+Odpoczywaj – słuchaj swojego organizmu, jeśli masz przemęczoną głowę to odpuść. Właśnie dlatego pisałem, że staram się ćwiczyć każdego dnia, bo nie zawsze to mi się udaje. Z autopsji wiem, że przy dużym obciążeniu mentalnym wyniki drastycznie spadają.
+Analizuj wykonywane zadania – nie wykonuj ruchów automatycznie, bo wydaje Ci się, że dane posunięcie jest akurat najlepsze. Przeanalizuj pozycję, poszukaj motywów, przelicz warianty. Nawet jeśli zupełnie nic nie widzisz to i tak warto jeszcze dołożyć kilka minut i postawić swojemu umysłowi wyzwanie. To zaprocentuje. Po zakończeniu zadania warto jeszcze raz wszystko przeanalizować w celu utrwalenia.
+Daj sobie czas – mimo wszystko. Spotkałem się z opinią, że powinno się zakładać ograniczenie czasowe na zadanie, np. 5 lub 10 minut. Wybrałem jednak inna opcję. Bywa, że mija 25 minut, w końcu wykonuję posunięcie, raz dobre, kiedy indziej zupełnie do kitu. Tak czy inaczej  nie odpuszczam zbyt szybko 😉
+Taktyka szachowa – kwestie techniczne:
+
+Zasada „szach – zbicie – groźba” (check – capture – threat) – w pierwszej kolejności, tuż po ocenie pozycji na szachownicy, przechodzę przez analizę, tzw. forcing moves. W taktyce szachowej to właśnie te zagrania mają największy potencjał taktyczny.
+Sprawdzaj wszystkie ruchy – także te na pierwszy rzut oka beznadziejne – czasem kontynuacja daje świetny efekt. Przerabiałem to nie raz 😉
+Szukaj wszystkich opcji dania szacha, dla niewprawnego szachisty często ich nie widać na pierwszy rzut oka (np. hetman ruchem z pozycji wyjściowej pod bandę)
+Szukaj okazji do blokowania po szachu przeciwnika, to często jest rozwiązanie zamiast ucieczki lub zbicia.
+Jeśli znajdziesz dobrą i oczywistą kontynuacje to sprawdzaj także inne – być może są mniej oczywiste, ale z lepszym efektem, np. szybszy mat
+Skoczek w tłoku lub blisko wrogiego króla może być/często jest wyjątkowo zabójczy. Prawdziwy jeździec apokalipsy.
+Doceń moc piona jako wsparcie przy ataku na króla, także jako tego, który odcina drogę ucieczki wrogiego monarchy.
+W końcówce twój król jest bardzo przydatny w ataku i matowaniu, zawsze rozważaj/wykonuj jego aktywny marsz naprzód.
+W obronie przed atakiem na twojego króla, on sam stanowi bardzo ważny element obrony, więc sprawdź czy nie powinien zostać blisko pola wymiany figur (w przeciwieństwie do ucieczki).
+Przy wymianach figur zdarza się tak, że możesz odbić ruchem powrotnym figurą, która wydawała się utracona – zdarzało mi się tak w przypadku zwłaszcza skoczka w pewnych liniach obrony sycylijskiej.
+Czasem przeciwnik błędnie kalkuluje i wtedy jest, tzw. niepoprawna ofiara; bywa też tak, że specjalnie podstawia.
+Jeśli twojego króla atakuje tylko hetman to uważaj na groźbę wiecznego szacha – zwłaszcza bolesne jeśli masz wygrywającą pozycję.
+Dla początkujących zamieszczam poniżej dwa linki z portalu ChessTempo.com, które warto sprawdzić, bo zawierają masę przydatnej wiedzy. Także tam, po założeniu darmowego konta, możecie rozwiązywać tysiące odpowiednio dobranych do Waszego poziomu zdań – fajna jest też appka na telefon.

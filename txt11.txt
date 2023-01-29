@@ -1,0 +1,101 @@
+Szachy zjednały sobie na przestrzeni wieków rzesze miłośników w różnych kulturach i grupach. Tak szerokie zainteresowanie było i jest spowodowane tym, iż zawierają w sobie wielopłaszczyznowe elementy, które są również przedmiotem nauki. Teorii naukowych, stworzonych na podstawie obserwacji szachów, możemy szukać zarówno w matematyce, jak informatyce, psychologii, socjologii czy ekonomii.
+
+#AndrzejSzewczak: Szachy uczą i rozwijają różne sfery człowieka, także również wiary we własne siły, umiejętności nie poddawania się w trudnych chwilach i szukania wyjścia z sytuacji na pozór beznadziejnych #Szachy #Zarządzanie #Sukces #StrategiaBiznesu
+W szachach istnieją zadania geometryczno-matematyczno-informatyczne, takie jak problem ośmiu hetmanów, problem czterech hetmanów, problem skoczka czy twierdzenie o szachownicy. Nad niektórymi z nich pochylali się przedstawiciele lwowskiej szkoły matematycznej.
+
+„Szachy są kamieniem probierczym inteligencji.” J.W. Goethe
+Szachy były pierwszą grą, którą się zainteresowali informatycy. Sam twórca teorii informacji Claude Shannon, wyłożył podstawy komputerowej gry w szachy, proponując już w 1949 r. schemat algorytmu opisującego przebieg partii.[1] 
+
+Autorami pierwszego faktycznie działającego programu szachowego byli Alan Mathison Turing[2] i David Champernow w 1951 roku.  
+
+Marek Hołyński pisał, iż niektórzy pracom dotyczącym sztucznej inteligencji przypisują rolę koła napędowego w rozwoju informatyki. [3] Już w 1950 roku jeden z twórców informatyki Turing pisał: „Maszyny będą współzawodniczyć z ludźmi we wszystkich czysto intelektualnych dziedzinach”.[4]
+
+Szachy a sztuczna inteligencja
+Wiemy, że człowiek od dawna interesował się automatyzacją pewnych procesów i to właśnie królewska gra w szachy miała się przyczynić do tego. Tak pisali o tej grze pionierzy badań nad sztuczną inteligencją Newell, Shaw i Simon — „są grą par- excellence intelektualną [...] Szachy są naturalnym polem do przeprowadzania prób mechanizacji. Gdyby udało się skonstruować maszynę bardzo dobrze grającą w szachy, to można by się spodziewać również wniknięcia w istotę intelektualnej działalności człowieka”.[5]
+
+„W artykule omawiającym działanie NSS[6] padło ważne stwierdzenie dotyczące przyszłości badań. Zdaniem autorów bowiem, mimo istotnych różnic między człowiekiem a maszyną, komputery powinny naśladować ludzkie sposoby rozwiązywania problemów szachowych, nie zaś szukać własnych dróg. […]
+
+W prace włączyli się psycholodzy, specjaliści od teorii systemów, łączności, a także sami szachiści. […] Psychologów interesował sposób, w jaki przy programowaniu gry w szachy dałoby się uwzględnić strukturę czynności umysłowych człowieka, wpływ emocji, ruchu oczu, itp.”[7]
+
+Z badań i idei zarówno Millera (1956 r. teoria chunków) i A. De Groota (1965 r.) możemy wysnuć wnioski, iż ważnym czynnikiem podejmowania decyzji jest percepcja. Rozwinięciem i doprecyzowaniem jednej z metod A. De Groota (dziewięciu wskaźników myślenia w szachach), w Polsce zajmuje się dr Jan Przewoźnik.
+
+
+
+REKLAMA
+Drzewo wariantów
+De Groot oparł swoje rozważania idei drzewa wariantów na tym, że można opracować ilościowe wskaźniki opisujące proces i skuteczność indywidualnego rozwiązywania problemów na szachownicy.
+
+„Wskaźniki dotyczą liczby wariantów (gałęzi), liczby posunięć rozpatrywanych, dokładnie analizowanych, zmienianych i powtórnie rozpatrywanych w całym drzewie decyzyjnym i w najdłuższej gałęzi, a ostatecznie wartości wybranego posunięcia i czasu podejmowania decyzji.”[8]
+
+Jak pisał Andrzej Marek Zawiślak: „Istotą zarządzania jest permanentny proces podejmowania decyzji”[9]. Jednocześnie na pytanie: co to jest dobre zarządzanie? konsekwentnie odpowiada krótko: „Dobre zarządzanie to po prostu prawidłowe decyzje”.[10]
+
+Z tego powodu wymaga się od nich wysokiej jakości. Aby takie były powinny charakteryzować[11] się tym, że są:
+
+− dobrze przemyślane,
+
+− podejmowane we właściwym czasie,
+
+− realne,
+
+− ekonomiczne,
+
+− skuteczne.
+
+Dobre zarządzanie to dobre decyzje
+Poprzez podejmowane decyzje można określić charakter człowieka. Jego umiejętności takie jak zdolność do pracy w stresie, szerokiej percepcji, kreatywność. Oraz ryzyka lub ich brak, które stanowią nie tylko o tym czy jest on dobrym menedżerem, ale o stylu i jego wizji rzeczywistości, która z tych powodów jest inna dla każdego człowieka.
+
+Zarówno cechy dobrej decyzji, jak i umiejętności dobrego menedżera mają dużo wspólnego z szachistami i podejmowanymi przez nich decyzjami w czasie partii szachowej. W królewskiej grze możemy wyróżnić charakterystyczne cechy gier organizacyjnych, które przedstawione zostały w pracy „Pewność i gra. Wstęp do teorii zachowań organizacyjnych”: [12]
+
+− gracze lub koalicje mogą realizować własne interesy;
+
+− gra przebiega w zmiennym otoczeniu (społecznym, ekonomicznym itd.);
+
+− w grze obowiązują względnie stałe i znane wszystkim graczom reguły;
+
+− wynik gry jest nieprzewidywalny, a wartość możliwych do uzyskania wypłat jest różna dla różnych graczy i podlega ciągłym zmianom;
+
+− gracze angażują się w grę ze zmienną intensywnością;
+
+− uczestnicy gry muszą posługiwać się wzajemnie zrozumiałym językiem.
+
+Szachy a percepcja otaczającego nas świata
+O powstaniu gry w szachy krąży wiele legend, a za jej kolebkę uważa się z Indie.[13] Chciałbym jednak przedstawić opowieść, która powyższe rozważania uwypukla i może służyć również za pouczający przykład, jak można łatwo wpaść w tarapaty mając niedostateczną percepcję otaczającego świata i przez to podejmować błędne decyzje.
+
+Hinduski mędrzec Sessa przedstawił, stworzoną przez siebie grę w szachy, swojemu władcy, któremu się ona tak spodobała, że obiecał dać mędrcowi wszystko, czego zażąda. Sessa poprosił o wydanie mu takiej liczby ziaren pszenicy, która byłaby sumą ich ułożonych na szachownicy wg następującego algorytmu: na pierwszym polu jedno ziarno, na drugim polu dwa ziarna, na trzecim cztery i na każdym kolejnym dwa razy więcej niż na poprzednim i tak, aż do ostatniego 64 pola. Zadowolony władca zgodził się na proponowaną nagrodę.
+
+Szybko okazało się jednak, że nie może wypełnić swojego zobowiązania z powodu ogromnej liczby ziaren. Jak obliczyć, ile dokładnie? Mamy tu do czynienia z sumą ciągu geometrycznego, którego pierwszy wyraz to 1, a ostatni, co daje liczbę 18 446 744 073 709 551 615[14], czyli ponad 18 trylionów!!!
+
+REKLAMA
+Inne artykuły ze źródła "aleBank.pl":
+Czas na modyfikację regulacji bankowych w Unii Europejskiej
+W 2021 roku co trzeci dzień będzie wolny
+Zerowe stopy procentowe i firmy zombie
+W przykładzie tym widzimy zaprzeczenie wszystkich cech dobrej decyzji podanych przez Józefa Penca, co było spowodowane złą percepcją prawdopodobnie z poniższych powodów:
+
+− po pierwsze stanem emocjonalnym decydenta,
+
+− po drugie na początku tych ziarenek nie widać dużo,
+
+− po trzecie zboże to nie złoto, co przyczyniło się do nieprzemyślanej dobrze decyzji.
+
+Różnicę w percepcji możemy również porównać do gry zawodników o różnej sile gry. Początkujący zawodnicy, gdy usłyszą słowo szach już łapią za Króla, chcąc nim uciec, nie uwzględniając dwóch pozostałych możliwości: zbicia bierki, która szachuje i zasłony, które również znają.
+
+Strategiczne zalety szachów
+Doświadczony gracz sprawdzi wcześniej inne rzeczy np. czy oprócz szacha są inne groźby, ale również sprawdzi, jak sam może później atakować (jakie bierki mu są do tego potrzebne). Po zebraniu informacji przystępuje do szukania możliwości, a następnie dokonuje obliczeń, których końcowym efektem jest podjęcie decyzji.
+
+We współczesnym świecie perspektywy obecnego pokolenia młodzieży nie są tak różowe, jak nam by się wydawało z poniższych powodów:
+
+− postępująca automatyzacja, w której maszyny zastępują ludzi już nie tylko w pracach fizycznych, przez co wzrasta popyt na wysoko wykwalifikowanych pracowników umysłowych;
+
+− będą również mierzyć się w życiu dorosłym z sytuacją, w której zanim skończą studia już pewne zawody przejdą do lamusa, a powstaną nowe;
+
+− szybkiego zużywania się zawodów, powstawania nowych zawodów, których nie było, co będzie skutkować permanentnym uczeniem się nowych rzeczy i umiejętności oraz percepcji, które umożliwią przebranżawianie się
+
+Łatwiej o sukces
+Szachy uczą i rozwijają różne sfery człowieka, także również wiary we własne siły, umiejętności nie poddawania się w trudnych chwilach i szukania wyjścia z sytuacji na pozór beznadziejnych. Dają szansę odniesienia sukcesu w każdej dziedzinie życia i dlatego są wartościami najbardziej pożądanymi we współczesnym świecie.
+
+Beniamin Franklin, amerykański polityk i pedagog XVIII wieku, w swej publikacji „Morals of Chess” podkreślał, „że w grze w szachy widzimy przykład tego, jak skromny nawet sukces może podnieść wiarę we własne siły, zaś nieuwaga doprowadzić do strat; uczy to nas nie tracić otuchy przy przewadze przeciwnika i nie rezygnować z szans zwycięstwa przy tych nawet dotkliwych ciosach, które możemy otrzymać goniąc za sukcesem.”
+
+Wybrane przez autora powyższe przykłady oraz teorie, są kroplą w oceanie możliwości wykorzystania szachów w różnych dziedzinach nauki, a tym bardziej w życiu.
+
+Na zakończenie chciałbym przytoczyć fakt z 1994 roku, który może już jest zapomniany, a mianowicie w dziedzinie nauk ekonomicznych Komitet Noblowski uhonorował trzech naukowców, zajmujących się teorią gier w szczególności w zakresie podejmowania decyzji: Johna Harsanyia, Johna Forbesa Nasha, Reinharda Seltena. Nagrodę tę otrzymali za analizę równowagi w teorii gier niekooperacyjnych na przykładzie pokera i szachów.[15]
